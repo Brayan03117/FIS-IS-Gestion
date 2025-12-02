@@ -4,6 +4,8 @@
  */
 package com.refrig.main;
 
+import com.refrig.ui.InicioSesion;
+
 /**
  *
  * @author gabup
@@ -12,6 +14,6 @@ public class Prb
 {
     public static void main(String[] args)
     {
-        
+        new InicioSesion().setVisible(true);
     }
 }
