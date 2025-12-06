@@ -8,11 +8,12 @@
 
     <EditText
         android:id="@+id/correoUsuario"
-        android:layout_width="287dp"
-        android:layout_height="42dp"
+        android:layout_width="323dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="text"
         android:text="Ingrese su usuario o correo"
+        android:textColor="#366C4A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.241"
@@ -29,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052"
+        app:layout_constraintVertical_bias="0.053"
         app:srcCompat="@drawable/logo" />
 
     <TextView
@@ -43,15 +44,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
+        app:layout_constraintVertical_bias="0.212" />
 
     <EditText
-        android:id="@+id/contrasena"
-        android:layout_width="286dp"
-        android:layout_height="46dp"
+        android:id="@+id/contrasenaUsuario"
+        android:layout_width="314dp"
+        android:layout_height="59dp"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="Ingrese contraseña"
+        android:inputType="textPassword"
+        android:textColor="#366C4A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.24"
