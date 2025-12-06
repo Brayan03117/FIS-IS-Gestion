@@ -1,9 +1,11 @@
 package com.example.cocinafacil
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.window.OnBackInvokedDispatcher
 import androidx.activity.addCallback
 import androidx.activity.enableEdgeToEdge
@@ -43,6 +45,11 @@ class MainActivity : AppCompatActivity() {
         val botonRegistro=findViewById<Button>(R.id.registraseBoton)
         botonRegistro.setOnClickListener {
             pantallaRegistro()
+        }
+        val invitado=findViewById<TextView>(R.id.invitado)
+        val prin= Intent(this, Principal::class.java)
+        invitado.setOnClickListener {
+            startActivity(prin)
         }
     }
     private fun pantallaLogin(){

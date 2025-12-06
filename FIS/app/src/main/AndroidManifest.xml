@@ -12,9 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaFacil">
         <activity
+            android:name=".Principal"
+            android:exported="false" />
+        <activity
+            android:name=".PantallaPrincipal"
+            android:exported="false"
+            android:label="@string/title_activity_pantalla_principal"
+            android:theme="@style/Theme.CocinaFacil" />
+        <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
